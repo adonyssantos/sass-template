@@ -33,3 +33,7 @@ Use `_` at the beginning of any `.scss` file so it won't compile.
 
 Does the same as `npm css-compile` and then minifies the compiled files. \
 This is very useful when uploading a file to production.
+
+# Credits
+
+This project is created from [Sass Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate.git).
