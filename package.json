@@ -4,7 +4,8 @@
   "description": "A template for Sass",
   "main": "./src/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-compile": "sass --watch  --source-map --embed-sources --no-error-css src/scss/:dist/css/",
+    "css-minify": "sass --style=compressed --source-map --embed-sources --no-error-css src/scss/style.scss dist/css/style.min.css"
   },
   "repository": {
     "type": "git",
